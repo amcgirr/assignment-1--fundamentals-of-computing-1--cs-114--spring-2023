@@ -5,4 +5,4 @@ all: compile run
 compile:
 	javac $(filename).java
 run:
-	java $(filename).java
+	java $(filename)
