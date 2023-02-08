@@ -28,8 +28,8 @@ public class Assignment1 {
       Scanner input1 = new Scanner(System.in);
       System.out.println("Enter a number in Fahrenheit");
 
-      Float Fahrenheit = input1.nextFloat();
-      Float Celsius = (Fahrenheit - 32) * (5 / 9);
+      Double Fahrenheit = input1.nextDouble();
+      Double Celsius = (Fahrenheit - 32) / 1.8;
 
       //Random number generator
       Random generator = new Random();
